@@ -1,10 +1,11 @@
+import style from "./OrdenList.module.css";
 function OrdenList(props){
     return(
         <>
-        <h3>{props.title}</h3>
+        <h3 id={style.title_size}>{props.title}</h3>
         <ol>
             {props.album.map((track,index)=>
-                <li key={index}>{track}</li>
+                <li id={style.text_size}key={index}>{track}</li>
             )}
         </ol>
         </>

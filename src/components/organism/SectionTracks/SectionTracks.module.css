@@ -1,17 +1,17 @@
 #section_tracks_page{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:flex-start;
     flex-wrap: wrap ;
     position: absolute;
     width: 100%;
-    margin-top: 2000px;
-    margin-bottom: 5px;
+    margin-top: 2650px;
+    margin-bottom: 20px;
 }
 #title_page{
     width: 100%;
     position: absolute;
-    margin-top: 1905px ;
+    margin-top: 2560px ;
     display: flex;
     justify-content: center;
     font-size: 2vw;
